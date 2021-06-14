@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="demo.pr.mapper.MapperBDI">
+
+<!--  MapperGeneral namespace -->
+    <resultMap type="demo.pr.entity.Costumers" id="rm_Tdoc">
+        
+        <id     property="customer_id"           column="CUSTOMER_ID"  />
+        <result property="customer_name"         column="CUSTOMER_NAME"/>
+        <result property="address"               column="ADDRESS"/>
+        <result property="city"                  column="CITY"/>
+        <result property="state"                 column="STATE"/>
+        <result property="zip_code"              column="ZIP_CODE"/>    
+    </resultMap>
+  
+</mapper>
